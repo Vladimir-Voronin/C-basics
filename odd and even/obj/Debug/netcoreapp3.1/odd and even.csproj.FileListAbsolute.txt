@@ -1,0 +1,11 @@
+D:\C# learning\odd and even\bin\Debug\netcoreapp3.1\odd and even.exe
+D:\C# learning\odd and even\bin\Debug\netcoreapp3.1\odd and even.deps.json
+D:\C# learning\odd and even\bin\Debug\netcoreapp3.1\odd and even.runtimeconfig.json
+D:\C# learning\odd and even\bin\Debug\netcoreapp3.1\odd and even.runtimeconfig.dev.json
+D:\C# learning\odd and even\bin\Debug\netcoreapp3.1\odd and even.dll
+D:\C# learning\odd and even\bin\Debug\netcoreapp3.1\odd and even.pdb
+D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.csprojAssemblyReference.cache
+D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.AssemblyInfoInputs.cache
+D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.AssemblyInfo.cs
+D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.dll
+D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.pdb
