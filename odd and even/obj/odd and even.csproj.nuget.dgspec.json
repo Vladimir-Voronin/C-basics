@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# learning\\odd and even\\odd and even.csproj": {}
+    "D:\\C# basics\\odd and even\\odd and even.csproj": {}
   },
   "projects": {
-    "D:\\C# learning\\odd and even\\odd and even.csproj": {
+    "D:\\C# basics\\odd and even\\odd and even.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# learning\\odd and even\\odd and even.csproj",
+        "projectUniqueName": "D:\\C# basics\\odd and even\\odd and even.csproj",
         "projectName": "odd and even",
-        "projectPath": "D:\\C# learning\\odd and even\\odd and even.csproj",
+        "projectPath": "D:\\C# basics\\odd and even\\odd and even.csproj",
         "packagesPath": "C:\\Users\\Neptune\\.nuget\\packages\\",
-        "outputPath": "D:\\C# learning\\odd and even\\obj\\",
+        "outputPath": "D:\\C# basics\\odd and even\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Neptune\\AppData\\Roaming\\NuGet\\NuGet.Config",

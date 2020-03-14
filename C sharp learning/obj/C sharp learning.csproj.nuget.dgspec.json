@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# learning\\C sharp learning\\C sharp learning.csproj": {}
+    "D:\\C# basics\\C sharp learning\\C sharp learning.csproj": {}
   },
   "projects": {
-    "D:\\C# learning\\C sharp learning\\C sharp learning.csproj": {
+    "D:\\C# basics\\C sharp learning\\C sharp learning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# learning\\C sharp learning\\C sharp learning.csproj",
+        "projectUniqueName": "D:\\C# basics\\C sharp learning\\C sharp learning.csproj",
         "projectName": "C sharp learning",
-        "projectPath": "D:\\C# learning\\C sharp learning\\C sharp learning.csproj",
+        "projectPath": "D:\\C# basics\\C sharp learning\\C sharp learning.csproj",
         "packagesPath": "C:\\Users\\Neptune\\.nuget\\packages\\",
-        "outputPath": "D:\\C# learning\\C sharp learning\\obj\\",
+        "outputPath": "D:\\C# basics\\C sharp learning\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Neptune\\AppData\\Roaming\\NuGet\\NuGet.Config",

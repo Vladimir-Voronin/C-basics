@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# learning\\Class 1\\Class 1.csproj",
+      "projectUniqueName": "D:\\C# basics\\Class 1\\Class 1.csproj",
       "projectName": "Class 1",
-      "projectPath": "D:\\C# learning\\Class 1\\Class 1.csproj",
+      "projectPath": "D:\\C# basics\\Class 1\\Class 1.csproj",
       "packagesPath": "C:\\Users\\Neptune\\.nuget\\packages\\",
-      "outputPath": "D:\\C# learning\\Class 1\\obj\\",
+      "outputPath": "D:\\C# basics\\Class 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Neptune\\AppData\\Roaming\\NuGet\\NuGet.Config",

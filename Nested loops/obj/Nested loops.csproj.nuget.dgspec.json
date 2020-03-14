@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# learning\\Nested loops\\Nested loops.csproj": {}
+    "D:\\C# basics\\Nested loops\\Nested loops.csproj": {}
   },
   "projects": {
-    "D:\\C# learning\\Nested loops\\Nested loops.csproj": {
+    "D:\\C# basics\\Nested loops\\Nested loops.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# learning\\Nested loops\\Nested loops.csproj",
+        "projectUniqueName": "D:\\C# basics\\Nested loops\\Nested loops.csproj",
         "projectName": "Nested loops",
-        "projectPath": "D:\\C# learning\\Nested loops\\Nested loops.csproj",
+        "projectPath": "D:\\C# basics\\Nested loops\\Nested loops.csproj",
         "packagesPath": "C:\\Users\\Neptune\\.nuget\\packages\\",
-        "outputPath": "D:\\C# learning\\Nested loops\\obj\\",
+        "outputPath": "D:\\C# basics\\Nested loops\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Neptune\\AppData\\Roaming\\NuGet\\NuGet.Config",

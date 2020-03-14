@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# learning\\Arrays\\Arrays.csproj": {}
+    "D:\\C# basics\\Arrays\\Arrays.csproj": {}
   },
   "projects": {
-    "D:\\C# learning\\Arrays\\Arrays.csproj": {
+    "D:\\C# basics\\Arrays\\Arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# learning\\Arrays\\Arrays.csproj",
+        "projectUniqueName": "D:\\C# basics\\Arrays\\Arrays.csproj",
         "projectName": "Arrays",
-        "projectPath": "D:\\C# learning\\Arrays\\Arrays.csproj",
+        "projectPath": "D:\\C# basics\\Arrays\\Arrays.csproj",
         "packagesPath": "C:\\Users\\Neptune\\.nuget\\packages\\",
-        "outputPath": "D:\\C# learning\\Arrays\\obj\\",
+        "outputPath": "D:\\C# basics\\Arrays\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Neptune\\AppData\\Roaming\\NuGet\\NuGet.Config",
