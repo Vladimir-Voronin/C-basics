@@ -1,0 +1,10 @@
+D:\C# basics\Structure\bin\Debug\netcoreapp3.1\Structure.exe
+D:\C# basics\Structure\bin\Debug\netcoreapp3.1\Structure.deps.json
+D:\C# basics\Structure\bin\Debug\netcoreapp3.1\Structure.runtimeconfig.json
+D:\C# basics\Structure\bin\Debug\netcoreapp3.1\Structure.runtimeconfig.dev.json
+D:\C# basics\Structure\bin\Debug\netcoreapp3.1\Structure.dll
+D:\C# basics\Structure\bin\Debug\netcoreapp3.1\Structure.pdb
+D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.AssemblyInfoInputs.cache
+D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.AssemblyInfo.cs
+D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.dll
+D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.pdb
