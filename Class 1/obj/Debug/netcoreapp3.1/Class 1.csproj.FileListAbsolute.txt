@@ -8,3 +8,14 @@ D:\C# learning\Class 1\obj\Debug\netcoreapp3.1\Class 1.AssemblyInfoInputs.cache
 D:\C# learning\Class 1\obj\Debug\netcoreapp3.1\Class 1.AssemblyInfo.cs
 D:\C# learning\Class 1\obj\Debug\netcoreapp3.1\Class 1.dll
 D:\C# learning\Class 1\obj\Debug\netcoreapp3.1\Class 1.pdb
+D:\C# basics\Class 1\obj\Debug\netcoreapp3.1\Class 1.csprojAssemblyReference.cache
+D:\C# basics\Class 1\obj\Debug\netcoreapp3.1\Class 1.AssemblyInfoInputs.cache
+D:\C# basics\Class 1\obj\Debug\netcoreapp3.1\Class 1.AssemblyInfo.cs
+D:\C# basics\Class 1\obj\Debug\netcoreapp3.1\Class 1.dll
+D:\C# basics\Class 1\obj\Debug\netcoreapp3.1\Class 1.pdb
+D:\C# basics\Class 1\bin\Debug\netcoreapp3.1\Class 1.exe
+D:\C# basics\Class 1\bin\Debug\netcoreapp3.1\Class 1.deps.json
+D:\C# basics\Class 1\bin\Debug\netcoreapp3.1\Class 1.runtimeconfig.json
+D:\C# basics\Class 1\bin\Debug\netcoreapp3.1\Class 1.runtimeconfig.dev.json
+D:\C# basics\Class 1\bin\Debug\netcoreapp3.1\Class 1.dll
+D:\C# basics\Class 1\bin\Debug\netcoreapp3.1\Class 1.pdb

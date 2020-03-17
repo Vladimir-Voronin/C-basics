@@ -6,10 +6,6 @@ namespace Nested_loops
     {
         static void Main(string[] args)
         {
-            int n1 = 2;
-            int n2 = 5;
-            int result = n2 * 3 + 20 / 2 * n1--;
-            Console.WriteLine(result);
             while (true)
             {
                 Console.Write("Enter the height of the triangle: ");

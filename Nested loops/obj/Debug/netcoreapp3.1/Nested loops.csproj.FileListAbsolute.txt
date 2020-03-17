@@ -9,3 +9,14 @@ D:\C# learning\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.AssemblyInfoInp
 D:\C# learning\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.AssemblyInfo.cs
 D:\C# learning\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.dll
 D:\C# learning\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.pdb
+D:\C# basics\Nested loops\bin\Debug\netcoreapp3.1\Nested loops.exe
+D:\C# basics\Nested loops\bin\Debug\netcoreapp3.1\Nested loops.deps.json
+D:\C# basics\Nested loops\bin\Debug\netcoreapp3.1\Nested loops.runtimeconfig.json
+D:\C# basics\Nested loops\bin\Debug\netcoreapp3.1\Nested loops.runtimeconfig.dev.json
+D:\C# basics\Nested loops\bin\Debug\netcoreapp3.1\Nested loops.dll
+D:\C# basics\Nested loops\bin\Debug\netcoreapp3.1\Nested loops.pdb
+D:\C# basics\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.csprojAssemblyReference.cache
+D:\C# basics\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.AssemblyInfoInputs.cache
+D:\C# basics\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.AssemblyInfo.cs
+D:\C# basics\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.dll
+D:\C# basics\Nested loops\obj\Debug\netcoreapp3.1\Nested loops.pdb

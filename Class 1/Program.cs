@@ -6,23 +6,17 @@ namespace Class_1
     {
         static void Main(string[] args)
         {
-            Nothing first = new Nothing(5);
-            
+            User tom = new User();
+            tom.name = "Tom";
+            tom.age = 14;
+
+            User mike = new User("Mike", 34);
+            User max = new User() { name = "Max", age = 24 };
+            User checker = new User("Checker", 12, 5);
+            tom.Info();
+            mike.Info();
+            max.Info();
+            checker.Info();
         }
     }
-
-    public class Nothing
-    {
-        int some;
-        public Nothing(int var)
-        {
-            some = var * 3;
-        }
-
-        public int increase(int inc)
-        {
-            return some * inc;
-        }
-    }
-        
 }
