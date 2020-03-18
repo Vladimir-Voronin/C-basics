@@ -10,7 +10,9 @@ namespace Class_1
         public int age;
         int check;
 
-        
+        public User()
+        {
+        }
 
         public User(string name)
         {
