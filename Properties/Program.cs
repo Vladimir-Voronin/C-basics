@@ -36,7 +36,7 @@ namespace Properties
             get { return age; }
             set
             {
-                if (age > 0 && age < 120)
+                if (value > 0 && value < 120)
                 {
                     age = value;
                 }

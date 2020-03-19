@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overload.csproj", "{922E99EC-2A6C-40C3-9EC5-7A0CF7935D65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance and polyformism", "Inheritance and polyformism\Inheritance and polyformism.csproj", "{16877B9A-436F-4D55-81A2-5DAFC6BB1264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{922E99EC-2A6C-40C3-9EC5-7A0CF7935D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{922E99EC-2A6C-40C3-9EC5-7A0CF7935D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{922E99EC-2A6C-40C3-9EC5-7A0CF7935D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

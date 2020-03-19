@@ -5,7 +5,7 @@ namespace Overload
     class Program
     {
         static void Main(string[] args)
-        {
+        {          
             Counter var = new Counter(291);
             Timer tim = var;
             Console.WriteLine(var.Info());

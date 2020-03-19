@@ -1,0 +1,11 @@
+D:\C# basics\Inheritance and polyformism\obj\Debug\netcoreapp3.1\Inheritance and polyformism.AssemblyInfoInputs.cache
+D:\C# basics\Inheritance and polyformism\obj\Debug\netcoreapp3.1\Inheritance and polyformism.AssemblyInfo.cs
+D:\C# basics\Inheritance and polyformism\bin\Debug\netcoreapp3.1\Inheritance and polyformism.exe
+D:\C# basics\Inheritance and polyformism\bin\Debug\netcoreapp3.1\Inheritance and polyformism.deps.json
+D:\C# basics\Inheritance and polyformism\bin\Debug\netcoreapp3.1\Inheritance and polyformism.runtimeconfig.json
+D:\C# basics\Inheritance and polyformism\bin\Debug\netcoreapp3.1\Inheritance and polyformism.runtimeconfig.dev.json
+D:\C# basics\Inheritance and polyformism\bin\Debug\netcoreapp3.1\Inheritance and polyformism.dll
+D:\C# basics\Inheritance and polyformism\bin\Debug\netcoreapp3.1\Inheritance and polyformism.pdb
+D:\C# basics\Inheritance and polyformism\obj\Debug\netcoreapp3.1\Inheritance and polyformism.dll
+D:\C# basics\Inheritance and polyformism\obj\Debug\netcoreapp3.1\Inheritance and polyformism.pdb
+D:\C# basics\Inheritance and polyformism\obj\Debug\netcoreapp3.1\Inheritance and polyformism.csprojAssemblyReference.cache
