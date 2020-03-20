@@ -7,12 +7,16 @@ namespace Generics
         static void Main(string[] args)
         {
             
-            Client<Account> client1 = new Client<Account>("Tommi", 5000);
+            Client<Account> client1 = new Client<Account>("Tommi", new Account(5000));
             client1.AccountInfo();
+            
+
             Console.WriteLine(client1.Root());
 
-            Admin<Account> admin1 = new Admin<Account>("Frank", "Franki_", 5000, true);
+            Admin<FullAccount> admin1 = new Admin<FullAccount>("Frank", "Franki_", new FullAccount(5000), true);
             admin1.AccountInfo();
+            admin1.Bankacc.Info();
+            admin1.Bankacc.Credit(5, 2.5);
             admin1.Bankacc.Info();
             Console.WriteLine(admin1.Root());
         }
@@ -21,7 +25,7 @@ namespace Generics
     abstract class User
     {
         protected string Nickname { get; set; }
-        public Account Bankacc { get; protected set; }
+        
 
         public override string ToString()
         {
@@ -34,10 +38,11 @@ namespace Generics
 
     class Client<T> : User where T : Account
     {
-        public Client(string nick, double money)
+        public T Bankacc { get; protected set; }
+        public Client(string nick, T obj)
         {
             Nickname = nick;
-            Bankacc = new Account(money);
+            Bankacc = obj;
         }
         public override bool Root()
         {
@@ -53,16 +58,17 @@ namespace Generics
 
     class Admin<T> : User where T : Account
     {
+        public T Bankacc { get; protected set; }
         private string Name { get; set; }
         public bool Acting { get; set; }
-        public Admin(string nick, string name, double money)
+        public Admin(string nick, string name, T obj)
         {
             Nickname = nick;
             Name = name;
-            Bankacc = new Account(money);
+            Bankacc = obj;
         }
 
-        public Admin(string nick, string name, double money, bool acting) : this(nick, name, money)
+        public Admin(string nick, string name, T obj, bool acting) : this(nick, name, obj)
         {
             Acting = acting;
         }
@@ -80,11 +86,11 @@ namespace Generics
     
     class Account
     {
-        public double money;
+        private double money;
         public double Money
         { 
             get { return money; }
-            private set { money = value; }
+            protected set { money = value; }
         }
 
         public Account(double money)
@@ -100,6 +106,19 @@ namespace Generics
         public void Info()
         {
             Console.WriteLine($"Account! There is {Money}");
+        }
+    }
+
+    class FullAccount : Account
+    {
+
+        public FullAccount(double money) : base(money)
+        {
+        }
+
+        public void Credit(int year, double interest)
+        {
+            Money += Money * interest/100 * year;
         }
     }
 }
