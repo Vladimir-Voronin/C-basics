@@ -22,11 +22,11 @@ namespace Generics
         }
     }
 
-    abstract class User
+    abstract class User<T> where T : Account
     {
         protected string Nickname { get; set; }
-        
 
+        public T Bankacc { get; protected set; }
         public override string ToString()
         {
             return Nickname;
@@ -36,9 +36,9 @@ namespace Generics
         public abstract void AccountInfo();
     }
 
-    class Client<T> : User where T : Account
+    class Client<T> : User<T> where T : Account
     {
-        public T Bankacc { get; protected set; }
+        
         public Client(string nick, T obj)
         {
             Nickname = nick;
@@ -56,9 +56,8 @@ namespace Generics
 
     }
 
-    class Admin<T> : User where T : Account
+    class Admin<T> : User<T> where T : Account
     {
-        public T Bankacc { get; protected set; }
         private string Name { get; set; }
         public bool Acting { get; set; }
         public Admin(string nick, string name, T obj)
