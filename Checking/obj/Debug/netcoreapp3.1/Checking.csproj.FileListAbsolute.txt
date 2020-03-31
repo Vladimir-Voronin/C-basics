@@ -1,0 +1,10 @@
+D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.AssemblyInfoInputs.cache
+D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.AssemblyInfo.cs
+D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.exe
+D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.deps.json
+D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.runtimeconfig.json
+D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.runtimeconfig.dev.json
+D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.dll
+D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.pdb
+D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.dll
+D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.pdb
