@@ -37,6 +37,7 @@ namespace Interface
     {
         public int Legs { get; set; } = 4;
     }
+
     abstract class Machine : IMovable
     {
         public int HoursePower { get; set; }
@@ -47,6 +48,7 @@ namespace Interface
         }
         public abstract void Info();
     }
+
     class Car : Machine
     {
         public string Color { get; set; } = "Black";
@@ -104,7 +106,7 @@ namespace Interface
             Console.WriteLine($"Vehicle = {Vehicle}");
             Console.WriteLine($"This is hourse with vehicle {Vehicle}");
         }
-
+        
         void IMovable.Move()
         {
             Console.WriteLine($"This is hourse with vehicle {Vehicle}");
@@ -112,8 +114,9 @@ namespace Interface
 
         void IFileWork.Move()
         {
-            Console.WriteLine($"File is moving to <<path>>");
+            Console.WriteLine("File is moving to <<path>>");
         }
 
     }
+
 }

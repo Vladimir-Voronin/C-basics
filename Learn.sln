@@ -17,11 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structure", "Structure\Stru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "functions", "functions\functions.csproj", "{6F0421B2-199F-4872-9ED5-AE79DC631902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{DA70F4AA-9211-4D88-B19B-A579FAFFD970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Properties", "Properties\Properties.csproj", "{DA70F4AA-9211-4D88-B19B-A579FAFFD970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overload.csproj", "{922E99EC-2A6C-40C3-9EC5-7A0CF7935D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overload", "Overload\Overload.csproj", "{922E99EC-2A6C-40C3-9EC5-7A0CF7935D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance and polyformism", "Inheritance and polyformism\Inheritance and polyformism.csproj", "{16877B9A-436F-4D55-81A2-5DAFC6BB1264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance and polyformism", "Inheritance and polyformism\Inheritance and polyformism.csproj", "{16877B9A-436F-4D55-81A2-5DAFC6BB1264}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{837FE17D-12CC-4976-96FD-06A97FD4DFBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{92977BCF-9772-4B98-8343-4FD3928A87FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{F9EB9087-2D28-4E4C-BA62-F53B062C4AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checking", "Checking\Checking.csproj", "{86BE24D7-2AAF-46CE-8E1D-3FF6EDDFC51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{53087549-AB11-4D3C-8337-4530F87D1110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +79,26 @@ Global
 		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16877B9A-436F-4D55-81A2-5DAFC6BB1264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837FE17D-12CC-4976-96FD-06A97FD4DFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837FE17D-12CC-4976-96FD-06A97FD4DFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837FE17D-12CC-4976-96FD-06A97FD4DFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837FE17D-12CC-4976-96FD-06A97FD4DFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92977BCF-9772-4B98-8343-4FD3928A87FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92977BCF-9772-4B98-8343-4FD3928A87FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92977BCF-9772-4B98-8343-4FD3928A87FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92977BCF-9772-4B98-8343-4FD3928A87FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EB9087-2D28-4E4C-BA62-F53B062C4AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EB9087-2D28-4E4C-BA62-F53B062C4AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EB9087-2D28-4E4C-BA62-F53B062C4AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EB9087-2D28-4E4C-BA62-F53B062C4AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BE24D7-2AAF-46CE-8E1D-3FF6EDDFC51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BE24D7-2AAF-46CE-8E1D-3FF6EDDFC51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BE24D7-2AAF-46CE-8E1D-3FF6EDDFC51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BE24D7-2AAF-46CE-8E1D-3FF6EDDFC51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53087549-AB11-4D3C-8337-4530F87D1110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53087549-AB11-4D3C-8337-4530F87D1110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53087549-AB11-4D3C-8337-4530F87D1110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53087549-AB11-4D3C-8337-4530F87D1110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
