@@ -1,0 +1,11 @@
+D:\C# basics\Work with strings\bin\Debug\netcoreapp3.1\Work with strings.exe
+D:\C# basics\Work with strings\bin\Debug\netcoreapp3.1\Work with strings.deps.json
+D:\C# basics\Work with strings\bin\Debug\netcoreapp3.1\Work with strings.runtimeconfig.json
+D:\C# basics\Work with strings\bin\Debug\netcoreapp3.1\Work with strings.runtimeconfig.dev.json
+D:\C# basics\Work with strings\bin\Debug\netcoreapp3.1\Work with strings.dll
+D:\C# basics\Work with strings\bin\Debug\netcoreapp3.1\Work with strings.pdb
+D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.AssemblyInfoInputs.cache
+D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.AssemblyInfo.cs
+D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.dll
+D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.pdb
+D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.csprojAssemblyReference.cache
