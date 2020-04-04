@@ -12,6 +12,10 @@ namespace Checking
             int[,] array = { { 1, 2 }, { 2, 5 }, { 2, 7 } };
             int a = Kata.SumOfMinimums(array);
             Console.WriteLine(a);
+
+            string s1 = "   LA LA LA, My name is samalamadumalama    ";
+            s1 = Kata.UpperFirstChar(s1);
+            Console.WriteLine(s1.GetType().ToString());
         }
     }
 
@@ -46,6 +50,23 @@ namespace Checking
                 result += min;
             }
             return result;
+        }
+
+        public static string UpperFirstChar(string s)
+        {
+            string[] current = s.Split(" ");
+            string result = "";
+            for(int i=0;i < current.Length; i++)
+            {
+                if (current[i] == " " || current[i] == "") continue;
+                if (i == 0) result = current[i].Substring(0,1).ToUpper() + current[i].Substring(1, current[i].Length - 1).ToLower() + " ";
+                else
+                {
+                    result += current[i].Substring(0, 1).ToUpper() + current[i].Substring(1, current[i].Length - 1).ToLower()+ " ";
+                }
+                    
+            }
+            return result.TrimEnd();
         }
     }
 }
