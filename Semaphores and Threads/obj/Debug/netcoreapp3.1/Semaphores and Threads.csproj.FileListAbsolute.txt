@@ -1,0 +1,11 @@
+D:\C# basics\Semaphores and Threads\bin\Debug\netcoreapp3.1\Semaphores and Threads.exe
+D:\C# basics\Semaphores and Threads\bin\Debug\netcoreapp3.1\Semaphores and Threads.deps.json
+D:\C# basics\Semaphores and Threads\bin\Debug\netcoreapp3.1\Semaphores and Threads.runtimeconfig.json
+D:\C# basics\Semaphores and Threads\bin\Debug\netcoreapp3.1\Semaphores and Threads.runtimeconfig.dev.json
+D:\C# basics\Semaphores and Threads\bin\Debug\netcoreapp3.1\Semaphores and Threads.dll
+D:\C# basics\Semaphores and Threads\bin\Debug\netcoreapp3.1\Semaphores and Threads.pdb
+D:\C# basics\Semaphores and Threads\obj\Debug\netcoreapp3.1\Semaphores and Threads.csprojAssemblyReference.cache
+D:\C# basics\Semaphores and Threads\obj\Debug\netcoreapp3.1\Semaphores and Threads.AssemblyInfoInputs.cache
+D:\C# basics\Semaphores and Threads\obj\Debug\netcoreapp3.1\Semaphores and Threads.AssemblyInfo.cs
+D:\C# basics\Semaphores and Threads\obj\Debug\netcoreapp3.1\Semaphores and Threads.dll
+D:\C# basics\Semaphores and Threads\obj\Debug\netcoreapp3.1\Semaphores and Threads.pdb
