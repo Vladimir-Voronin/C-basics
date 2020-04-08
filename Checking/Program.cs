@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace Checking
 {
@@ -15,7 +16,9 @@ namespace Checking
 
             string s1 = "   LA LA LA, My name is samalamadumalama    ";
             s1 = Kata.UpperFirstChar(s1);
-            Console.WriteLine(s1.GetType().ToString());
+            Console.WriteLine(s1);
+            int i = (int)Math.Sqrt(24);
+            Console.WriteLine(i);
         }
     }
 
@@ -59,14 +62,23 @@ namespace Checking
             for(int i=0;i < current.Length; i++)
             {
                 if (current[i] == " " || current[i] == "") continue;
-                if (i == 0) result = current[i].Substring(0,1).ToUpper() + current[i].Substring(1, current[i].Length - 1).ToLower() + " ";
-                else
-                {
-                    result += current[i].Substring(0, 1).ToUpper() + current[i].Substring(1, current[i].Length - 1).ToLower()+ " ";
-                }
-                    
+
+                result += current[i].Substring(0, 1).ToUpper() + current[i].Substring(1, current[i].Length - 1).ToLower()+ " ";      
             }
             return result.TrimEnd();
+        }
+
+        public static void MainRegular()
+        {
+            string pattern = @"^[a-zA-Z0-9{}]+$";
+            while (true)
+            {
+                string value = Console.ReadLine();
+                if (Regex.IsMatch(value, pattern, RegexOptions.IgnoreCase))
+                    Console.WriteLine($"String {value} is verify");
+                else
+                    Console.WriteLine($"String {value} NOO");
+            }
         }
     }
 }
