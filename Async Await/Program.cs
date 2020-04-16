@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Async_Await
 {
@@ -19,7 +20,10 @@ namespace Async_Await
             //Console.WriteLine("Введите число: ");
             //int n = Int32.Parse(Console.ReadLine());
 
-            FactorialAsyncCatchingExcept();
+            //FactorialAsyncCatchingExcept();
+            
+            StartAsyncStream(new[] { 1,2,3,4,5});
+            StartAsyncStream(new[] { 6, 7, 8, 9, 10 });
             Console.ReadLine();
         }
         static async void FactorialAsync()
@@ -86,6 +90,25 @@ namespace Async_Await
             Thread.Sleep(3000);
             Console.WriteLine(result);
             return result;
+        }
+
+        static async void StartAsyncStream(int[] array)
+        {
+            await foreach (var tuple in GetNumberAsync(array))
+            {
+                Console.WriteLine($"var {tuple.Item1} working { tuple.Item2 } time");
+            }
+        }
+        static async IAsyncEnumerable<(int,int)> GetNumberAsync(int[] array)
+        {
+            Random rnd = new Random();
+            int delay = rnd.Next(3000);
+            foreach (int var in array)
+            {
+                await Task.Delay(delay);
+                delay = rnd.Next(3000);
+                yield return (var, delay);
+            }
         }
     }
 }
