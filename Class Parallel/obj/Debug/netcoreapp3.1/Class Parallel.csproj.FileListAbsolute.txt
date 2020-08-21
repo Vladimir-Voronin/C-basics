@@ -8,3 +8,4 @@ D:\C# basics\Class Parallel\bin\Debug\netcoreapp3.1\Class Parallel.dll
 D:\C# basics\Class Parallel\bin\Debug\netcoreapp3.1\Class Parallel.pdb
 D:\C# basics\Class Parallel\obj\Debug\netcoreapp3.1\Class Parallel.dll
 D:\C# basics\Class Parallel\obj\Debug\netcoreapp3.1\Class Parallel.pdb
+D:\C# basics\Class Parallel\obj\Debug\netcoreapp3.1\Class Parallel.csprojAssemblyReference.cache

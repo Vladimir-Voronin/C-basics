@@ -8,4 +8,3 @@ D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.dll
 D:\C# basics\Checking\bin\Debug\netcoreapp3.1\Checking.pdb
 D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.dll
 D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.pdb
-D:\C# basics\Checking\obj\Debug\netcoreapp3.1\Checking.csprojAssemblyReference.cache

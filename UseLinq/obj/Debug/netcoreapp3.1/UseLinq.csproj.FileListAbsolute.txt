@@ -1,0 +1,11 @@
+D:\C# basics\UseLinq\bin\Debug\netcoreapp3.1\UseLinq.exe
+D:\C# basics\UseLinq\bin\Debug\netcoreapp3.1\UseLinq.deps.json
+D:\C# basics\UseLinq\bin\Debug\netcoreapp3.1\UseLinq.runtimeconfig.json
+D:\C# basics\UseLinq\bin\Debug\netcoreapp3.1\UseLinq.runtimeconfig.dev.json
+D:\C# basics\UseLinq\bin\Debug\netcoreapp3.1\UseLinq.dll
+D:\C# basics\UseLinq\bin\Debug\netcoreapp3.1\UseLinq.pdb
+D:\C# basics\UseLinq\obj\Debug\netcoreapp3.1\UseLinq.AssemblyInfoInputs.cache
+D:\C# basics\UseLinq\obj\Debug\netcoreapp3.1\UseLinq.AssemblyInfo.cs
+D:\C# basics\UseLinq\obj\Debug\netcoreapp3.1\UseLinq.dll
+D:\C# basics\UseLinq\obj\Debug\netcoreapp3.1\UseLinq.pdb
+D:\C# basics\UseLinq\obj\Debug\netcoreapp3.1\UseLinq.csprojAssemblyReference.cache

@@ -10,6 +10,10 @@ namespace Overload
             Timer tim = var;
             Console.WriteLine(var.Info());
             Console.WriteLine(tim.Info());
+            Timer tim2 = new Timer(409);
+            Console.WriteLine(tim2.Info());
+            Counter var2 = tim2;
+            Console.WriteLine(var2.Info());
         }
     }
 
@@ -45,9 +49,16 @@ namespace Overload
 
     class Timer
     {
+        int seconds;
         public int Houres { get; set; }
         public int Minutes { get; set; }
-        public int Seconds { get; set; }
+        public int Seconds { get { return seconds; } 
+            set {
+                Houres = value / 3600;
+                Minutes = (value - Houres * 3600) / 60;
+                seconds = value - Houres * 3600 - Minutes * 60;
+            } 
+        }
 
         public Timer()
         {

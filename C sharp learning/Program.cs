@@ -35,20 +35,16 @@ namespace _0.Hello_World
             {
                 case "+":
                     return a + b;
-                    break;
                 case "-":
                     return a - b;
-                    break;
                 case "*":
                     return a * b;
-                    break;
                 case "/":
                     return a / b;
-                    break;
                 default:
                     Console.WriteLine("unknown operator");
                     return 0;
-                    break;
+                    
             }
         }
     }

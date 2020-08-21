@@ -8,4 +8,3 @@ D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.Assembl
 D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.AssemblyInfo.cs
 D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.dll
 D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.pdb
-D:\C# basics\Work with strings\obj\Debug\netcoreapp3.1\Work with strings.csprojAssemblyReference.cache

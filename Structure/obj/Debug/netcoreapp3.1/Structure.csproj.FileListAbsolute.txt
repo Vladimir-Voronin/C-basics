@@ -8,3 +8,4 @@ D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.AssemblyInfoInputs.cach
 D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.AssemblyInfo.cs
 D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.dll
 D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.pdb
+D:\C# basics\Structure\obj\Debug\netcoreapp3.1\Structure.csprojAssemblyReference.cache

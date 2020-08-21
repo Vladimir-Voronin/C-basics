@@ -8,3 +8,4 @@ D:\C# basics\Properties\bin\Debug\netcoreapp3.1\Properties.dll
 D:\C# basics\Properties\bin\Debug\netcoreapp3.1\Properties.pdb
 D:\C# basics\Properties\obj\Debug\netcoreapp3.1\Properties.dll
 D:\C# basics\Properties\obj\Debug\netcoreapp3.1\Properties.pdb
+D:\C# basics\Properties\obj\Debug\netcoreapp3.1\Properties.csprojAssemblyReference.cache

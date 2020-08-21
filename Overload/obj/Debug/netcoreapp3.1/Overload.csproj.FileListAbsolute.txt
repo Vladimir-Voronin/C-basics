@@ -4,7 +4,6 @@ D:\C# basics\Overload\bin\Debug\netcoreapp3.1\Overload.runtimeconfig.json
 D:\C# basics\Overload\bin\Debug\netcoreapp3.1\Overload.runtimeconfig.dev.json
 D:\C# basics\Overload\bin\Debug\netcoreapp3.1\Overload.dll
 D:\C# basics\Overload\bin\Debug\netcoreapp3.1\Overload.pdb
-D:\C# basics\Overload\obj\Debug\netcoreapp3.1\Overload.csprojAssemblyReference.cache
 D:\C# basics\Overload\obj\Debug\netcoreapp3.1\Overload.AssemblyInfoInputs.cache
 D:\C# basics\Overload\obj\Debug\netcoreapp3.1\Overload.AssemblyInfo.cs
 D:\C# basics\Overload\obj\Debug\netcoreapp3.1\Overload.dll

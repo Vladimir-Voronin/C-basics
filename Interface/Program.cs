@@ -17,6 +17,19 @@ namespace Interface
             file.Move();
             inter1.Move();
             Console.WriteLine(inter1.GetType());
+            Print(bus1);
+        }
+
+        //Метод будет работать со всеми классами, реализующими интерфейс и только c составляющими,
+        //которые были определены в интерфейсе
+        public static void Print(IMovable obj)
+        {
+            obj.Move();
+            Console.WriteLine(obj.Vehicle);
+            Console.WriteLine(obj.GetType());
+            if (obj is Car) {
+                Car obj2 = (Car)obj;
+                Console.WriteLine(obj2.Color); }
         }
     }
 
@@ -24,6 +37,7 @@ namespace Interface
     {
         int Vehicle { get; set; }
         void Move();
+        
         void Info();
     }
 
@@ -42,10 +56,8 @@ namespace Interface
     {
         public int HoursePower { get; set; }
         public int Vehicle { get; set; }
-        public void Move()
-        {
-            Console.WriteLine($"Moving with vehicle {Vehicle}");
-        }
+
+        public abstract void Move();
         public abstract void Info();
     }
 
@@ -76,9 +88,14 @@ namespace Interface
         {
             Console.WriteLine($"vehicle = {Vehicle}, hoursepower = {HoursePower}, color = {Color}");
         }
+
+        public override void Move()
+        {
+            Console.WriteLine($"Moving with vehicle {Vehicle}");
+        }
     }
 
-    class Bus : Car
+    class Bus : Car, IMovable
     {
         public int Capacity { get; set; } // set explicitly with { capacity = smth }
         public Bus(int veh) : base(veh)
@@ -96,6 +113,12 @@ namespace Interface
         public Bus(int veh, int hoursepower, string color) : base(veh, hoursepower, color)
         {
         }
+
+        //Используется явная реализация интерфейса, т.к. наследуемый класс Bus переопределяет метод интерфейса IMovable
+        void IMovable.Move()
+        {
+            Console.WriteLine($"Moving with vehicle {Vehicle}");
+        }
     }
 
     class Hourse : Animal, IMovable, IFileWork
@@ -107,6 +130,7 @@ namespace Interface
             Console.WriteLine($"This is hourse with vehicle {Vehicle}");
         }
         
+        //Используется явная реализация, так как у двух разных интерфейсов реализуется метод с одинаковым называнием
         void IMovable.Move()
         {
             Console.WriteLine($"This is hourse with vehicle {Vehicle}");

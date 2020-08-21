@@ -14,7 +14,6 @@ D:\C# basics\functions\bin\Debug\netcoreapp3.1\functions.runtimeconfig.json
 D:\C# basics\functions\bin\Debug\netcoreapp3.1\functions.runtimeconfig.dev.json
 D:\C# basics\functions\bin\Debug\netcoreapp3.1\functions.dll
 D:\C# basics\functions\bin\Debug\netcoreapp3.1\functions.pdb
-D:\C# basics\functions\obj\Debug\netcoreapp3.1\functions.csprojAssemblyReference.cache
 D:\C# basics\functions\obj\Debug\netcoreapp3.1\functions.AssemblyInfoInputs.cache
 D:\C# basics\functions\obj\Debug\netcoreapp3.1\functions.AssemblyInfo.cs
 D:\C# basics\functions\obj\Debug\netcoreapp3.1\functions.dll

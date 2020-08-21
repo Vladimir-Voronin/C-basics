@@ -65,7 +65,7 @@ namespace Tasks
             Task<int> t = Task<int>.Factory.StartNew(() => Count(new int[] { 2, 6, 3, 6, 2, 4, 1, 6, 4, 3, 6, 5, 6, 7 }));
             Console.WriteLine(t.Result);
             ArrayTask();
-            Task t2 = t.ContinueWith(threhj=>DisplayTask(threhj));
+            Task t2 = t.ContinueWith(t=>DisplayTask(t));
             Console.WriteLine("Check"); //Check can realized before t2 will end
         }
 

@@ -4,7 +4,6 @@ D:\C# basics\Thread lock\bin\Debug\netcoreapp3.1\Thread lock.runtimeconfig.json
 D:\C# basics\Thread lock\bin\Debug\netcoreapp3.1\Thread lock.runtimeconfig.dev.json
 D:\C# basics\Thread lock\bin\Debug\netcoreapp3.1\Thread lock.dll
 D:\C# basics\Thread lock\bin\Debug\netcoreapp3.1\Thread lock.pdb
-D:\C# basics\Thread lock\obj\Debug\netcoreapp3.1\Thread lock.csprojAssemblyReference.cache
 D:\C# basics\Thread lock\obj\Debug\netcoreapp3.1\Thread lock.AssemblyInfoInputs.cache
 D:\C# basics\Thread lock\obj\Debug\netcoreapp3.1\Thread lock.AssemblyInfo.cs
 D:\C# basics\Thread lock\obj\Debug\netcoreapp3.1\Thread lock.dll

@@ -8,4 +8,3 @@ D:\C# basics\Events\bin\Debug\netcoreapp3.1\Events.dll
 D:\C# basics\Events\bin\Debug\netcoreapp3.1\Events.pdb
 D:\C# basics\Events\obj\Debug\netcoreapp3.1\Events.dll
 D:\C# basics\Events\obj\Debug\netcoreapp3.1\Events.pdb
-D:\C# basics\Events\obj\Debug\netcoreapp3.1\Events.csprojAssemblyReference.cache

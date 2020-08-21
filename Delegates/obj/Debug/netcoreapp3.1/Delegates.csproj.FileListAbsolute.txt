@@ -8,4 +8,3 @@ D:\C# basics\Delegates\obj\Debug\netcoreapp3.1\Delegates.AssemblyInfoInputs.cach
 D:\C# basics\Delegates\obj\Debug\netcoreapp3.1\Delegates.AssemblyInfo.cs
 D:\C# basics\Delegates\obj\Debug\netcoreapp3.1\Delegates.dll
 D:\C# basics\Delegates\obj\Debug\netcoreapp3.1\Delegates.pdb
-D:\C# basics\Delegates\obj\Debug\netcoreapp3.1\Delegates.csprojAssemblyReference.cache

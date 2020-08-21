@@ -69,7 +69,7 @@ namespace Threads
         static void ThreadWithoutUnboxing()
         {
             Counter c = new Counter() { x = 2, y = 5 };
-            Thread t = new Thread(new ThreadStart(() => c.Loop()));
+            Thread t = new Thread(new ThreadStart(c.Loop));
             t.Start();
         }
 

@@ -35,7 +35,7 @@ namespace Events
         public delegate void MyDelegate(string message);
         public event MyDelegate Event;
         public string Name { get; set; }
-        public MyDelegate _del;
+        public MyDelegate del;
 
         public void Info()
         {
@@ -50,7 +50,7 @@ namespace Events
             if (Event == null)
                 Console.WriteLine("Pls, define delegate with method AddDelegate");
             else
-                Event(String.Format($"Name: {Name}\nDelegate: {_del.ToString()}"));
+                Event(String.Format($"Name: {Name}\nDelegate: {del.ToString()}"));
         }
 
         public void InfoForDelegete(string message)

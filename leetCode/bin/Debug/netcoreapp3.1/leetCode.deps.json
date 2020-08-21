@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Interface/1.0.0": {
+      "leetCode/1.0.0": {
         "runtime": {
-          "Interface.dll": {}
+          "leetCode.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Interface/1.0.0": {
+    "leetCode/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -6,7 +6,7 @@ namespace functions
     {
         static void Main(string[] args)
         {
-            int x, y, z, b, j;
+            int x, y, b, j;
             x = 0;
             y = 0;
             b = 0;

@@ -4,7 +4,6 @@ D:\C# basics\Threads\bin\Debug\netcoreapp3.1\Threads.runtimeconfig.json
 D:\C# basics\Threads\bin\Debug\netcoreapp3.1\Threads.runtimeconfig.dev.json
 D:\C# basics\Threads\bin\Debug\netcoreapp3.1\Threads.dll
 D:\C# basics\Threads\bin\Debug\netcoreapp3.1\Threads.pdb
-D:\C# basics\Threads\obj\Debug\netcoreapp3.1\Threads.csprojAssemblyReference.cache
 D:\C# basics\Threads\obj\Debug\netcoreapp3.1\Threads.AssemblyInfoInputs.cache
 D:\C# basics\Threads\obj\Debug\netcoreapp3.1\Threads.AssemblyInfo.cs
 D:\C# basics\Threads\obj\Debug\netcoreapp3.1\Threads.dll

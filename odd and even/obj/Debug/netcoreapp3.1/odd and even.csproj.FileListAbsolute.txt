@@ -9,3 +9,14 @@ D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.AssemblyInfoInp
 D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.AssemblyInfo.cs
 D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.dll
 D:\C# learning\odd and even\obj\Debug\netcoreapp3.1\odd and even.pdb
+D:\C# basics\odd and even\bin\Debug\netcoreapp3.1\odd and even.exe
+D:\C# basics\odd and even\bin\Debug\netcoreapp3.1\odd and even.deps.json
+D:\C# basics\odd and even\bin\Debug\netcoreapp3.1\odd and even.runtimeconfig.json
+D:\C# basics\odd and even\bin\Debug\netcoreapp3.1\odd and even.runtimeconfig.dev.json
+D:\C# basics\odd and even\bin\Debug\netcoreapp3.1\odd and even.dll
+D:\C# basics\odd and even\bin\Debug\netcoreapp3.1\odd and even.pdb
+D:\C# basics\odd and even\obj\Debug\netcoreapp3.1\odd and even.csprojAssemblyReference.cache
+D:\C# basics\odd and even\obj\Debug\netcoreapp3.1\odd and even.AssemblyInfoInputs.cache
+D:\C# basics\odd and even\obj\Debug\netcoreapp3.1\odd and even.AssemblyInfo.cs
+D:\C# basics\odd and even\obj\Debug\netcoreapp3.1\odd and even.dll
+D:\C# basics\odd and even\obj\Debug\netcoreapp3.1\odd and even.pdb

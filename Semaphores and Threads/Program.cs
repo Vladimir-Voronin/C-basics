@@ -8,18 +8,25 @@ namespace Semaphores_and_Threads
     {
         static void Main(string[] args)
         {
-            Client us1 = new Client("First");
-            Client us2 = new Client("Second");
-            Client us3 = new Client("Third");
-            Client us4 = new Client("Fourth");
-            Client us5 = new Client("Fivth");
-            Client us6 = new Client("Sixth");
-            Client us7 = new Client("Seventh");
-            Client us8 = new Client("Eighth");
-            Client us9 = new Client("Nineth");
-            Client us10 = new Client("Tenth");
-            Client us11 = new Client("Eleventh");
-            Client us12 = new Client("Twelveth");
+            Client us1 = new Client("1");
+            Client us2 = new Client("2");
+            Client us3 = new Client("3");
+            Client us4 = new Client("4");
+            Client us5 = new Client("5");
+            Client us6 = new Client("6");
+            Client us7 = new Client("7");
+            Client us8 = new Client("8");
+            Client us9 = new Client("9");
+            Client us10 = new Client("10");
+            Client us11 = new Client("11");
+            Client us12 = new Client("12");
+            Client us13 = new Client("13");
+            Client us14= new Client("14");
+            Client us15= new Client("15");
+            Client us16= new Client("16");
+            Client us17 = new Client("17");
+            Client us18 = new Client("18");
+            Client us19 = new Client("19");
             //foreach(Client client in Client.ClientsList)
             //{
             //    Console.WriteLine(client.Name);
@@ -30,7 +37,7 @@ namespace Semaphores_and_Threads
 
     class Call
     {
-        static Semaphore sem = new Semaphore(10, 10);   // max clietns in server
+        static Semaphore sem = new Semaphore(5, 10);   // max clietns in server
         private List<Client> clientsoncall = new List<Client>();  //clients on call
         public List<Client> ClientsOnCall { get { return clientsoncall; } set { clientsoncall = value; } }
         private int Count { get; set; }
@@ -57,11 +64,11 @@ namespace Semaphores_and_Threads
 
         public Call(Client client)
         {
-            
+            this.Add(client);
         }
         public Call(List<Client> clients)
         {
-            this.Info += (string name, string mess) => Console.WriteLine($"User {name} {mess}"); //
+            this.Info += (string name, string mess) => Console.WriteLine($"User {name} {mess}"); 
             foreach (Client client in clients)
             {
                 this.Add(client);
@@ -70,26 +77,26 @@ namespace Semaphores_and_Threads
 
         public void Calling(Client client)
         {
-            sem.WaitOne();
             
-            if (Info != null)
-                Info(client.Name, "Join to Call");
+            sem.WaitOne();
+
+            //Сокращенная проверка на null
+            Info?.Invoke(client.Name, "Join to Call");
             client.OnCall = true;
             lock (locker)
             {
                 ClientsOnCall.Add(client);
                 
             }
-            Thread.Sleep(rnd.Next(1000, 5000));
-            Timer timer = new Timer(tm, ClientsOnCall, 0, 1000);
+            Thread.Sleep(rnd.Next(1000, 7000));
+            Timer timer = new Timer(tm, ClientsOnCall, 0, 2000);
             lock (locker)
             {
                 ClientsOnCall.Remove(client);
             }
-            
 
-            if (Info != null)
-                Info(client.Name, "Leave from Call");
+
+            Info?.Invoke(client.Name, "Leave from Call");
             client.OnCall = false;
             sem.Release();
         }

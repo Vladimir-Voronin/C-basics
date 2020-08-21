@@ -19,6 +19,7 @@ namespace Generics
             admin1.Bankacc.Credit(5, 2.5);
             admin1.Bankacc.Info();
             Console.WriteLine(admin1.Root());
+
         }
     }
 
