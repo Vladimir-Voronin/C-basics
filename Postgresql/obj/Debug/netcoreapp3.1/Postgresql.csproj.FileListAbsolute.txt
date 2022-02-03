@@ -1,0 +1,13 @@
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Postgresql.exe
+D:\C# basics\Postgresql\obj\Debug\netcoreapp3.1\Postgresql.AssemblyInfoInputs.cache
+D:\C# basics\Postgresql\obj\Debug\netcoreapp3.1\Postgresql.AssemblyInfo.cs
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Postgresql.deps.json
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Postgresql.runtimeconfig.json
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Postgresql.runtimeconfig.dev.json
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Postgresql.dll
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Postgresql.pdb
+D:\C# basics\Postgresql\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\C# basics\Postgresql\obj\Debug\netcoreapp3.1\Postgresql.csproj.CopyComplete
+D:\C# basics\Postgresql\obj\Debug\netcoreapp3.1\Postgresql.dll
+D:\C# basics\Postgresql\obj\Debug\netcoreapp3.1\Postgresql.pdb
+D:\C# basics\Postgresql\obj\Debug\netcoreapp3.1\Postgresql.csprojAssemblyReference.cache

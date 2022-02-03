@@ -1,0 +1,10 @@
+D:\C# basics\oracle_backend\bin\Debug\netcoreapp3.1\oracle_backend.exe
+D:\C# basics\oracle_backend\bin\Debug\netcoreapp3.1\oracle_backend.deps.json
+D:\C# basics\oracle_backend\bin\Debug\netcoreapp3.1\oracle_backend.runtimeconfig.json
+D:\C# basics\oracle_backend\bin\Debug\netcoreapp3.1\oracle_backend.runtimeconfig.dev.json
+D:\C# basics\oracle_backend\bin\Debug\netcoreapp3.1\oracle_backend.dll
+D:\C# basics\oracle_backend\bin\Debug\netcoreapp3.1\oracle_backend.pdb
+D:\C# basics\oracle_backend\obj\Debug\netcoreapp3.1\oracle_backend.AssemblyInfoInputs.cache
+D:\C# basics\oracle_backend\obj\Debug\netcoreapp3.1\oracle_backend.AssemblyInfo.cs
+D:\C# basics\oracle_backend\obj\Debug\netcoreapp3.1\oracle_backend.dll
+D:\C# basics\oracle_backend\obj\Debug\netcoreapp3.1\oracle_backend.pdb

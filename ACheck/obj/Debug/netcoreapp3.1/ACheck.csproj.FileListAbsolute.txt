@@ -1,0 +1,11 @@
+D:\C# basics\ACheck\bin\Debug\netcoreapp3.1\ACheck.exe
+D:\C# basics\ACheck\bin\Debug\netcoreapp3.1\ACheck.deps.json
+D:\C# basics\ACheck\bin\Debug\netcoreapp3.1\ACheck.runtimeconfig.json
+D:\C# basics\ACheck\bin\Debug\netcoreapp3.1\ACheck.runtimeconfig.dev.json
+D:\C# basics\ACheck\bin\Debug\netcoreapp3.1\ACheck.dll
+D:\C# basics\ACheck\bin\Debug\netcoreapp3.1\ACheck.pdb
+D:\C# basics\ACheck\obj\Debug\netcoreapp3.1\ACheck.AssemblyInfoInputs.cache
+D:\C# basics\ACheck\obj\Debug\netcoreapp3.1\ACheck.AssemblyInfo.cs
+D:\C# basics\ACheck\obj\Debug\netcoreapp3.1\ACheck.dll
+D:\C# basics\ACheck\obj\Debug\netcoreapp3.1\ACheck.pdb
+D:\C# basics\ACheck\obj\Debug\netcoreapp3.1\ACheck.csprojAssemblyReference.cache

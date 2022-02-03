@@ -1,0 +1,11 @@
+D:\C# basics\Patterns\bin\Debug\netcoreapp3.1\Patterns.exe
+D:\C# basics\Patterns\bin\Debug\netcoreapp3.1\Patterns.deps.json
+D:\C# basics\Patterns\bin\Debug\netcoreapp3.1\Patterns.runtimeconfig.json
+D:\C# basics\Patterns\bin\Debug\netcoreapp3.1\Patterns.runtimeconfig.dev.json
+D:\C# basics\Patterns\bin\Debug\netcoreapp3.1\Patterns.dll
+D:\C# basics\Patterns\bin\Debug\netcoreapp3.1\Patterns.pdb
+D:\C# basics\Patterns\obj\Debug\netcoreapp3.1\Patterns.csprojAssemblyReference.cache
+D:\C# basics\Patterns\obj\Debug\netcoreapp3.1\Patterns.AssemblyInfoInputs.cache
+D:\C# basics\Patterns\obj\Debug\netcoreapp3.1\Patterns.AssemblyInfo.cs
+D:\C# basics\Patterns\obj\Debug\netcoreapp3.1\Patterns.dll
+D:\C# basics\Patterns\obj\Debug\netcoreapp3.1\Patterns.pdb

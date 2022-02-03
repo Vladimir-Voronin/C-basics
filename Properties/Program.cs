@@ -6,11 +6,13 @@ namespace Properties
     {
         static void Main(string[] args)
         {
-            User tom = new User();
-            tom.Firstname = "Tom";
-            tom.Lastname = "Jeff";
-            tom.Numofmutations = 30;
-            tom.Age = 21;
+            User tom = new User
+            {
+                Firstname = "Tom",
+                Lastname = "Jeff",
+                Numofmutations = 30,
+                Age = 21
+            };
             tom.Age = 10000;
             Console.WriteLine(tom.Age);
             Console.WriteLine(tom.NormalAndMutation);

@@ -6,18 +6,41 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter the number of elements in your array: ");
-            int number = int.Parse(Console.ReadLine());
+            int[] ar1 = new int[4] { 1, -2, 2, -3 };
+            Console.WriteLine(SecondMin(ar1));
 
-            int[] array = new int[number];
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write("Enter the value of " + i + " element: ");
-                array[i] = int.Parse(Console.ReadLine());
-            }
-
-            Console.WriteLine("Your array: {0}", string.Join(", ", array));
+            int[] ar2 = new int[4] { -2, -2, 2, -3 };
+            Console.WriteLine(FirstCouple(ar2));
         }
+
+        static int SecondMin(int[] arr)
+        {
+            if (arr.Length == 0) throw new Exception("Length of array < 1");
+            int min = arr[0];
+            int minsec = arr[1];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if(arr[i] < min)
+                {
+                    int save = min;
+                    min = arr[i];
+                    minsec = save;
+                }
+            }
+            return minsec;
+        }
+
+        static (int, int) FirstCouple(int[] arr)
+        {
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i] != arr[i - 1]) return (arr[i - 1], arr[i]);
+            }
+            return (0, 0);
+        }
+
+
     }
+
+    
 }

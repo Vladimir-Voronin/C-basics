@@ -1,0 +1,10 @@
+D:\C# basics\Work with bits\obj\Debug\netcoreapp3.1\Work with bits.AssemblyInfoInputs.cache
+D:\C# basics\Work with bits\obj\Debug\netcoreapp3.1\Work with bits.AssemblyInfo.cs
+D:\C# basics\Work with bits\bin\Debug\netcoreapp3.1\Work with bits.exe
+D:\C# basics\Work with bits\bin\Debug\netcoreapp3.1\Work with bits.deps.json
+D:\C# basics\Work with bits\bin\Debug\netcoreapp3.1\Work with bits.runtimeconfig.json
+D:\C# basics\Work with bits\bin\Debug\netcoreapp3.1\Work with bits.runtimeconfig.dev.json
+D:\C# basics\Work with bits\bin\Debug\netcoreapp3.1\Work with bits.dll
+D:\C# basics\Work with bits\bin\Debug\netcoreapp3.1\Work with bits.pdb
+D:\C# basics\Work with bits\obj\Debug\netcoreapp3.1\Work with bits.dll
+D:\C# basics\Work with bits\obj\Debug\netcoreapp3.1\Work with bits.pdb

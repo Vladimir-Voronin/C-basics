@@ -4,18 +4,14 @@ namespace Events
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Test t = new Test();
-
-            t.MyEvent += new EventHandler(t.DoNothing);
-            t.MyEvent -= null;
-
-            MyUser u = new MyUser() { Name = "Clown"};
-            u.Event += Print;
-            u.Info();
-            
-
+            var mail = new Mail();
+            var deli = new Delivery();
+            var bask = new Bascet();
+            bask.NewGood += mail.GetGood;
+            bask.NewGood += deli.GetGood;
+            bask.CreateGood("Russia", "Toy"); 
         }
 
         public static void Print(string message)

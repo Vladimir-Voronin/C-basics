@@ -158,5 +158,7 @@ namespace Checking
             result = result / n;
             return result % 1 == 0 ? Convert.ToInt64(result) : -1;
         }
+
+        
     }
 }
